@@ -1,0 +1,22 @@
+$PrimaryColor: #336
+$DarkColor: darken($PrimaryColor, 10%)
+$lightColor: lighten($PrimaryColor, 30%)
+$LiensMenu: white
+$LienSurvol: #fc0 
+
+.main-nav
+  background-color: #036 
+  ul
+    margin: 0
+    padding: 0
+    list-style: none
+    li  
+      display: inline-block
+      a 
+        display: block
+        text-decoration: none
+        color: $LiensMenu
+        font-family: Arial, sans-serif
+        &:hover, &:active
+          color: $LienSurvol
+
